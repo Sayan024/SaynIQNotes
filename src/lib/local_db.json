@@ -1,0 +1,91 @@
+{
+  "notes": [
+    {
+      "id": "note-1",
+      "title": "Welcome to SaynIQ Notes!",
+      "content": "SaynIQ Notes is your personal knowledge hub. You can write markdown, tag items, set categories, and sync everything directly to a Google Sheet.",
+      "tags": [
+        "Getting Started",
+        "Guide"
+      ],
+      "category": "General",
+      "isPinned": true,
+      "isArchived": false,
+      "userEmail": "demo@sayniq.com",
+      "createdAt": "2026-06-19T07:25:38.994Z",
+      "updatedAt": "2026-06-19T07:25:38.996Z"
+    }
+  ],
+  "inspirations": [
+    {
+      "id": "insp-1",
+      "title": "Power BI Executive Dashboard",
+      "description": "Sleek dark-mode dashboard concept with neon highlights and clean KPI layouts.",
+      "category": "Data Visualization",
+      "tags": [
+        "Power BI",
+        "Dark Mode",
+        "KPIs"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+      "referenceUrl": "https://dribbble.com",
+      "userEmail": "demo@sayniq.com",
+      "createdAt": "2026-06-19T07:25:38.996Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-1",
+      "title": "Microsoft Fabric Documentation",
+      "url": "https://learn.microsoft.com/en-us/fabric/",
+      "description": "Official Microsoft documentation for Fabric - SaaS multi-cloud data lakehouse architecture.",
+      "category": "Microsoft Fabric",
+      "tags": [
+        "Fabric",
+        "Data Lakehouse",
+        "Docs"
+      ],
+      "rating": 5,
+      "isFavorite": true,
+      "userEmail": "demo@sayniq.com",
+      "createdAt": "2026-06-19T07:25:38.996Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "General",
+      "type": "note",
+      "userEmail": "demo@sayniq.com"
+    },
+    {
+      "id": "cat-2",
+      "name": "Data Visualization",
+      "type": "inspiration",
+      "userEmail": "demo@sayniq.com"
+    },
+    {
+      "id": "cat-3",
+      "name": "Microsoft Fabric",
+      "type": "resource",
+      "userEmail": "demo@sayniq.com"
+    }
+  ],
+  "tags": [
+    {
+      "id": "tag-1",
+      "name": "Getting Started",
+      "userEmail": "demo@sayniq.com"
+    },
+    {
+      "id": "tag-2",
+      "name": "Power BI",
+      "userEmail": "demo@sayniq.com"
+    },
+    {
+      "id": "tag-3",
+      "name": "Fabric",
+      "userEmail": "demo@sayniq.com"
+    }
+  ]
+}
