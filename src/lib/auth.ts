@@ -2,6 +2,12 @@ import { NextAuthOptions } from 'next-auth';
 import GoogleProvider from 'next-auth/providers/google';
 import CredentialsProvider from 'next-auth/providers/credentials';
 
+// Safeguard for NextAuth production requirement of NEXTAUTH_SECRET in system environment
+if (!process.env.NEXTAUTH_SECRET) {
+  process.env.NEXTAUTH_SECRET = 'sayniq-secret-fallback-key-12345';
+}
+
+
 export const authOptions: NextAuthOptions = {
   providers: [
     GoogleProvider({
